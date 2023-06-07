@@ -1,0 +1,18 @@
+				qcom,mdss-dsi-iris-switch-panel-te-scanline-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-iris-switch-panel-te-scanline-command = [
+					/* Frequence Transition */
+					39 00 00 00 11 00 02 2F 00
+					/* TE change */
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 00 00 00 02 BE 47
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F A8
+					39 00 00 40 00 00 03 BA 00 00
+					39 00 00 40 00 00 02 6F B0
+					39 00 00 40 00 00 05 BA 00 00 00 00
+					39 00 00 40 00 00 02 2F 30
+					39 00 00 40 00 00 02 6D 01
+					39 00 00 40 00 00 05 35 00 00 00 01
+					39 00 00 00 00 00 03 44 08 DF //not change, follow panel dtsi
+					];
